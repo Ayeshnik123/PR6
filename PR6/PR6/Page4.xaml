@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PR6.Page4"
+             Title="Будильник">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label x:Name="Second"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Button x:Name="Start" Clicked="Start_Second"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
